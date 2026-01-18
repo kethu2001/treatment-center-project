@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
@@ -57,228 +59,299 @@
         </div>
     </section>
 
+    <section class="hero-curve"></section>
+
     <!-- Mission Statement Section -->
     <section class="mission" id="about">
         <div class="container">
             <h2 class="section-title">Mission Statement</h2>
-            <p class="mission__text">
-                Maridoc Therapeutics is committed to transforming the justice system through evidence-based
-                treatment programs. We believe in rehabilitation over incarceration, providing comprehensive
-                therapeutic services that address the root causes of criminal behavior and support successful
-                reintegration into society.
-            </p>
 
-            <div class="mission__image-wrapper">
-                <img src="assets/images/construction.jpg" alt="Construction and development" class="mission__image">
-            </div>
+            <p class="mission__text">
+                Maridoc Therapeutics is committed to transforming the justice system through
+                evidence-based treatment programs.
+            </p>
         </div>
     </section>
+
+    <div class="mission-video">
+        <video id="missionVideo" muted playsinline>
+            <source src="assets/video/Construction.mp4" type="video/mp4">
+        </video>
+
+        <!-- Play / Pause Button -->
+        <button class="video-control" id="videoControl">
+            ▶
+        </button>
+    </div>
+
+    <!-- <section class="hero-curve"></section> -->
 
     <!-- Our Latest Events Section -->
     <section class="events">
         <div class="container">
+
             <h2 class="section-title section-title--white">Our Latest Events</h2>
-            <p class="section-subtitle">Stay updated with our upcoming programs and initiatives</p>
+            <p class="section-subtitle">
+                Stay updated with our upcoming programs and initiatives
+            </p>
 
             <div class="events__grid">
-                <!-- Event Card 1 -->
+
+                <!-- Event 1 -->
                 <article class="event-card">
-                    <div class="event-card__date">
-                        <span class="event-card__day">15</span>
-                        <span class="event-card__month">January</span>
+                    <div class="event-card__header">
+                        <span>📅 April 10, 2025</span>
+                        <span>🕒 12.00PM to 1.30PM</span>
                     </div>
-                    <div class="event-card__content">
-                        <h3 class="event-card__title">Open Invitation to RTC</h3>
-                        <p class="event-card__description">
-                            Join us for an open house at our Residential Treatment Center
-                        </p>
-                        <p class="event-card__time">📍 10:00 AM - 4:00 PM</p>
+
+                    <div class="event-card__body">
+                        <div>
+                            <h3 class="event-card__title">Post Invitation to BID</h3>
+                            <p class="event-card__org">
+                                National Association Minority Contractor
+                            </p>
+
+                            <p class="event-card__venue">
+                                <strong>Venue:</strong><br>
+                                Eastern Atlantic States Regional Council of Carpenters,<br>
+                                801 W. Patapsco Avenue, Baltimore
+                            </p>
+                        </div>
+
+                        <button class="event-card__arrow">↗</button>
                     </div>
                 </article>
 
-                <!-- Event Card 2 -->
+                <!-- Event 2 -->
                 <article class="event-card">
-                    <div class="event-card__date">
-                        <span class="event-card__day">22</span>
-                        <span class="event-card__month">January</span>
+                    <div class="event-card__header">
+                        <span>📅 April 10, 2025</span>
+                        <span>🕒 12.00PM to 1.30PM</span>
                     </div>
-                    <div class="event-card__content">
-                        <h3 class="event-card__title">Key Talking Point Affiliates</h3>
-                        <p class="event-card__description">
-                            Annual conference for our affiliate partners
-                        </p>
-                        <p class="event-card__time">📍 9:00 AM - 5:00 PM</p>
+
+                    <div class="event-card__body">
+                        <div>
+                            <h3 class="event-card__title">Key Bridge Rebuild Project</h3>
+                            <p class="event-card__org">
+                                National Association Minority Contractor
+                            </p>
+
+                            <p class="event-card__venue">
+                                <strong>Venue:</strong><br>
+                                Eastern Atlantic States Regional Council of Carpenters,<br>
+                                801 W. Patapsco Avenue, Baltimore
+                            </p>
+                        </div>
+
+                        <button class="event-card__arrow">↗</button>
                     </div>
                 </article>
 
-                <!-- Event Card 3 -->
+                <!-- Event 3 -->
                 <article class="event-card">
-                    <div class="event-card__date">
-                        <span class="event-card__day">28</span>
-                        <span class="event-card__month">January</span>
+                    <div class="event-card__header">
+                        <span>📅 April 10, 2025</span>
+                        <span>🕒 12.00PM to 1.30PM</span>
                     </div>
-                    <div class="event-card__content">
-                        <h3 class="event-card__title">Open Invitation to RTC</h3>
-                        <p class="event-card__description">
-                            Second open house opportunity this month
-                        </p>
-                        <p class="event-card__time">📍 10:00 AM - 4:00 PM</p>
+
+                    <div class="event-card__body">
+                        <div>
+                            <h3 class="event-card__title">Post Invitation to BID</h3>
+                            <p class="event-card__org">
+                                National Association Minority Contractor
+                            </p>
+
+                            <p class="event-card__venue">
+                                <strong>Venue:</strong><br>
+                                Eastern Atlantic States Regional Council of Carpenters,<br>
+                                801 W. Patapsco Avenue, Baltimore
+                            </p>
+                        </div>
+
+                        <button class="event-card__arrow">↗</button>
                     </div>
                 </article>
 
-                <!-- Event Card 4 -->
+                <!-- Event 4 -->
                 <article class="event-card">
-                    <div class="event-card__date">
-                        <span class="event-card__day">05</span>
-                        <span class="event-card__month">February</span>
+                    <div class="event-card__header">
+                        <span>📅 April 10, 2025</span>
+                        <span>🕒 12.00PM to 1.30PM</span>
                     </div>
-                    <div class="event-card__content">
-                        <h3 class="event-card__title">What Happens to RTC?</h3>
-                        <p class="event-card__description">
-                            Town hall discussion about RTC program updates
-                        </p>
-                        <p class="event-card__time">📍 6:00 PM - 8:00 PM</p>
+
+                    <div class="event-card__body">
+                        <div>
+                            <h3 class="event-card__title">Post Invitation to BID</h3>
+                            <p class="event-card__org">
+                                National Association Minority Contractor
+                            </p>
+
+                            <p class="event-card__venue">
+                                <strong>Venue:</strong><br>
+                                Eastern Atlantic States Regional Council of Carpenters,<br>
+                                801 W. Patapsco Avenue, Baltimore
+                            </p>
+                        </div>
+
+                        <button class="event-card__arrow">↗</button>
                     </div>
                 </article>
+
             </div>
         </div>
     </section>
 
-    <!-- Latest News Section -->
-    <section class="news">
+
+    <section class="latest-news">
         <div class="container">
-            <h2 class="section-title">Latest News</h2>
 
-            <div class="news__grid">
-                <!-- News Article 1 -->
-                <article class="news-card">
-                    <div class="news-card__image-wrapper">
-                        <img src="assets/images/construction.jpg" alt="Construction site" class="news-card__image">
-                    </div>
-                    <div class="news-card__content">
-                        <span class="news-card__category">Community</span>
-                        <h3 class="news-card__title">
-                            Governor Hogan announced new plan for development of
-                            Economic Opportunity Zones in Maryland
-                        </h3>
-                        <p class="news-card__excerpt">
-                            Maryland's publication on a bridge, trauma or other New
-                            Baltimore Opportunity Zones...
-                        </p>
-                        <div class="news-card__meta">
-                            <span class="news-card__date">📅 January 7, 2025</span>
-                            <span class="news-card__read-time">⏱️ 5 min read</span>
-                        </div>
-                    </div>
-                </article>
+            <h2 class="section-title-1">Latest News</h2>
+            <p class="latest-news__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                mollis molestie malesuada.
+            </p>
 
-                <!-- News Article 2 -->
-                <article class="news-card">
-                    <div class="news-card__image-wrapper">
-                        <img src="assets/images/news-2.png" alt="Modern facility interior" class="news-card__image">
+            <!-- ROW 1 -->
+            <div class="news-row">
+                <div class="news-row__image">
+                    <img src="assets/images/construction.jpg" alt="Construction">
+                </div>
+
+                <div class="news-row__content">
+                    <span class="news-tag">Legal Trends Insight</span>
+
+                    <h3 class="news-heading">
+                        Maryland Department of General Services Announces Maryland’s
+                        Solicitation for a Design Team for the New Baltimore
+                        Therapeutic Treatment Center
+                    </h3>
+
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam non suscipit arcu. Curabitur vel risus, fringilla ut
+                        turpis vitae, fermentum auctor nunc.
+                    </p>
+
+                    <div class="news-meta">
+                        <span>January 5, 2025</span>
+                        <span>•</span>
+                        <span>6 minutes</span>
                     </div>
-                    <div class="news-card__content">
-                        <span class="news-card__category">Facilities</span>
-                        <h3 class="news-card__title">
-                            Governor Hogan announced new plan for development of
-                            Economic Opportunity Zones in Maryland
-                        </h3>
-                        <p class="news-card__excerpt">
-                            Exciting developments in our new treatment facilities showcasing
-                            modern rehabilitation spaces...
-                        </p>
-                        <div class="news-card__meta">
-                            <span class="news-card__date">📅 January 5, 2025</span>
-                            <span class="news-card__read-time">⏱️ 4 min read</span>
-                        </div>
-                    </div>
-                </article>
+                </div>
             </div>
 
-            <div class="news__load-more">
-                <button class="btn btn--outline">Discover More</button>
+            <!-- ROW 2 -->
+            <div class="news-row news-row--reverse">
+                <div class="news-row__content">
+                    <span class="news-tag">Announcement</span>
+
+                    <h3 class="news-heading small">
+                        Governor Hogan announces next step in development of new
+                        Baltimore Therapeutic Treatment Center
+                    </h3>
+
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam non suscipit arcu.
+                    </p>
+
+                    <div class="news-meta">
+                        <span>January 5, 2025</span>
+                        <span>•</span>
+                        <span>6 minutes</span>
+                    </div>
+                </div>
+
+                <div class="news-row__image">
+                    <img src="assets/images/news-2.png" alt="Interior">
+                </div>
             </div>
+
+            <div class="latest-news__btn">
+                <button class="btn-outline">Discover More →</button>
+            </div>
+
         </div>
     </section>
+
 
     <!-- Call to Action Section -->
     <section class="cta">
         <div class="container">
-            <h2 class="cta__title">For More Information or Bidding Opportunities</h2>
-            <p class="cta__text">Connect with us to learn more about our programs or explore partnership opportunities
-            </p>
-            <button class="btn btn--primary">Contact Us</button>
+            <div class="cta__box">
+                <h2 class="cta__title">For More Information or Bidding Opportunities</h2>
+                <p class="cta__text">
+                    Connect with us to learn more about our programs or explore partnership opportunities
+                </p>
+                <button class="btn btn--primary">Click here <span>↗</span></button>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="footer">
         <div class="container">
-            <div class="footer__grid">
 
-                <!-- Partner Logos -->
-                <div class="footer__column">
-                    <div class="partner-logo">
-                        <img src="assets/images/img-1.png" alt="Partner 1">
-                    </div>
-                    <div class="partner-logo">
-                        <img src="assets/images/img-2.png" alt="Partner 2">
-                    </div>
+            <!-- TOP FOOTER -->
+            <div class="footer__top">
+
+                <!-- Logos -->
+                <div class="footer__logos">
+                    <!-- <img src="assets/images/img-1.png" alt="Logo 1"> -->
+                    <img src="assets/images/img-2.png" alt="Logo 2">
                 </div>
 
-                <!-- Column 1 - About -->
+                <!-- Site Map -->
                 <div class="footer__column">
-                    <h3 class="footer__heading">MARIDOC</h3>
-                    <ul class="footer__links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Programs</a></li>
-                    </ul>
+                    <h4>Site Map</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <a href="#">Opportunity</a>
                 </div>
 
-                <!-- Column 2 - Useful Links -->
+                <!-- Quick Links -->
                 <div class="footer__column">
-                    <h3 class="footer__heading">Useful Links</h3>
-                    <ul class="footer__links">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Career</a></li>
-                    </ul>
+                    <h4>Quick Links</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Sign up</a>
                 </div>
 
-                <!-- Column 3 - Legal -->
+                <!-- Contact -->
                 <div class="footer__column">
-                    <h3 class="footer__heading">Legal</h3>
-                    <ul class="footer__links">
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
+                    <h4>Contact us</h4>
+                    <a href="mailto:inquiries@lbtc.com">inquiries@lbtc.com</a>
                 </div>
 
-                <!-- Column 4 - Newsletter -->
-                <div class="footer__column footer__column--newsletter">
-                    <h3 class="footer__heading">Subscribe to our Newsletter</h3>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email address" class="newsletter-form__input" required>
-                        <button type="submit" class="newsletter-form__btn">Submit</button>
+                <!-- Newsletter -->
+                <div class="footer__newsletter">
+                    <h4>Subscribe to our newsletter</h4>
+                    <p>Stay up to date with news, promo and updates about our service!</p>
+
+                    <form>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Send to us </button>
                     </form>
                 </div>
+
             </div>
 
-
-
-            <!-- Copyright & Social -->
+            <!-- BOTTOM -->
             <div class="footer__bottom">
-                <p class="footer__copyright">© 2025 Maridoc Therapeutics. All rights reserved.</p>
+                <p>© 2025 Baltimore, All right reserved</p>
+
                 <div class="footer__social">
-                    <a href="#" aria-label="Facebook">📘</a>
-                    <a href="#" aria-label="Twitter">🐦</a>
-                    <a href="#" aria-label="LinkedIn">💼</a>
-                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
+
             </div>
+
         </div>
     </footer>
+
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
