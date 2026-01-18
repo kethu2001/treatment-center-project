@@ -85,6 +85,5 @@ Responsiveness is achieved using CSS media queries.
 
 ### 🙏 Acknowledgments
 
-* Design provided by **[Apollo Consulting Group]**
+* Design provided by **Apollo Consulting Group**
 * Inspiration from modern web design trends
-* Icons and images sourced from **[source]**
