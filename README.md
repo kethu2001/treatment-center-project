@@ -2,23 +2,23 @@
 
 ## 🚀 Getting Started
 
-Follow the instructions below to set up and run the project locally.
+This section explains how to set up and run the project on your local machine.
 
 ---
 
 ### 📌 Prerequisites
 
-Before you begin, make sure you have the following:
+Ensure you have the following before getting started:
 
-* A modern web browser (Chrome, Firefox, Safari, Edge)
+* A modern web browser (Chrome, Firefox, Safari, or Edge)
 * A code editor (VS Code recommended)
-* Basic knowledge of HTML, CSS, and JavaScript
+* Basic understanding of HTML, CSS, and JavaScript
 
 ---
 
 ### 📥 Installation
 
-1. **Clone or download the project**
+1. **Clone or download the repository**
 
    ```bash
    git clone https://github.com/kethu2001/treatment-center-project.git
@@ -27,13 +27,26 @@ Before you begin, make sure you have the following:
 
 2. **Open the project in a code editor**
 
-   * Open the folder using **VS Code** or any preferred editor
+   * Open the project folder using **VS Code** or any preferred editor
 
-3. **Run the project**
+3. **Launch the project**
 
-   * Open `index.html` in your web browser
+   * Open `index.html` directly in your browser
      **OR**
-   * Use the **Live Server** extension in VS Code for a better development experience
+   * Run the project using the **Live Server** extension in VS Code for real-time updates
+
+---
+
+### 🛠️ Usage
+
+* Update website content in `index.html`
+* Modify styles inside the `css` directory:
+
+  * `variables.css` – global colors, fonts, and reusable values
+  * `main.css` – layout and core styling
+  * `responsive.css` – mobile and tablet responsiveness
+* Enhance or adjust interactivity in `js/main.js`
+* Replace images or videos inside the `assets` folder as required
 
 ---
 
@@ -41,19 +54,19 @@ Before you begin, make sure you have the following:
 
 The website is fully responsive and optimized for:
 
-* Desktop screens
+* Desktop devices
 * Tablets
-* Mobile devices
+* Mobile screens
 
-Responsive behavior is handled using CSS media queries.
+Responsiveness is achieved using CSS media queries.
 
 ---
 
 ### 📄 Deliverables
 
-* Fully functional responsive website
-* Source code files (HTML, CSS, JavaScript)
-* Organized assets (images and video)
+* Fully functional and responsive website
+* Complete source code (HTML, CSS, JavaScript)
+* Well-organized assets (images and video)
 * Project documentation (README)
 
 ---
@@ -61,3 +74,17 @@ Responsive behavior is handled using CSS media queries.
 ### 👩‍💻 Author
 
 **Kethmini Weerasooriya**
+
+**GitHub:** @kethu2001
+
+**LinkedIn:** [Your Profile](https://www.linkedin.com/in/kethmini-weerasooriya/)
+
+**Email:** [kethu.kavindya@gmail.com](mailto:kethu.kavindya@gmail.com)
+
+---
+
+### 🙏 Acknowledgments
+
+* Design provided by **[Apollo Consulting Group]**
+* Inspiration from modern web design trends
+* Icons and images sourced from **[source]**
